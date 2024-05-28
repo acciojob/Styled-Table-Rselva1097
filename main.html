@@ -2,14 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Game Statistics</title>
+    <style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+        }
+        thead {
+            background-color: #4CAF50;
+            color: white;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: center;
+            border: 1px solid #dddddd;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tbody tr:hover {
+            background-color: #ddd;
+        }
+        th {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <!-- add table here -->
-
-        
+    <table>
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Games Played</th>
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>Win Rate (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>25</td>
+                <td>18</td>
+                <td>7</td>
+                <td>72</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>30</td>
+                <td>22</td>
+                <td>8</td>
+                <td>73</td>
+            </tr>
+            <tr>
+                <td>Bob Johnson</td>
+                <td>20</td>
+                <td>10</td>
+                <td>10</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Lisa White</td>
+                <td>28</td>
+                <td>20</td>
+                <td>8</td>
+                <td>71</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>22</td>
+                <td>15</td>
+                <td>7</td>
+                <td>68</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
